@@ -39,11 +39,11 @@ sudo mv apache-maven-3.8.3/ maven
 vi ~/.bash_profile  # and add the lines below
 export M2_HOME=/opt/maven
 export PATH=$PATH:$M2_HOME/bin
-#
+
 ```
 ## .#Step4) Refrsh the profile file and Verify if maven is running
 ```sh
-source ~/.bashrc
+source ~/.bash_profile
 mvn -version
 ```
 
